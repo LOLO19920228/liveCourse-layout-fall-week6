@@ -1,0 +1,43 @@
+.fz-16{
+    font-size: 16px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.fz-32{
+    font-size: 32px;
+}
+.font-weight-semibold{
+    font-weight: 600;
+}
+.mb-4px{
+    margin-bottom: 4px;
+}
+.mb-section{
+    margin-bottom: 60px;
+    @media (max-width: 767px) {
+        margin-bottom: 40px;
+        }
+    }
+.border-radius-reset{
+    border-radius: 0; 
+}
+.moreLink{
+    color: #ac8a46;
+}
+.disabledLink:hover{
+    opacity: 0.3 !important;
+    a{
+        cursor:pointer;
+	    pointer-events: none; 
+    }
+}
+.maskLayer{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+.maskLayer:hover{
+    opacity: 0;
+}

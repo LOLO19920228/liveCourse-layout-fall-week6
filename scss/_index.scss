@@ -1,0 +1,62 @@
+.indexBanner{
+    background: url(../images/index1.jpg) center center no-repeat;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    h2{
+        font-size: 40px;
+    }
+    .btn{
+        max-width: 350px;
+    }
+}
+.indexFeature{
+    .featureImg{
+        height: 350px;
+        background-size: cover;
+    }
+    .featureImg-1{
+        background: url(../images/index2.jpg) center 32% no-repeat;
+    }
+    .featureImg-2{
+        background: url(../images/index3.png) center center no-repeat;
+    }
+    .featureImg-3{
+        background: url(../images/index4.jpg) 30% center no-repeat;
+    }
+    .featureImg-4{
+        height: 1080px;
+        background: url(../images/index5.jpg) 30% center no-repeat;
+        background-size: cover;
+        @media (max-width: 767px) {
+            height: 680px;
+        }
+    }
+    .btn{
+        padding: 14px 0;
+    }
+}
+.indexPromotion{
+    .promotionImg{
+        height: 540px;
+        background-size: cover !important;
+        @media (max-width: 767px) {
+            height: 350px;
+            }
+    }
+    .promotionImg-1{
+        background: url(../images/index6.jpg) center center no-repeat;
+    }
+    .promotionImg-2{
+        background: url(../images/index7.jpg) center center no-repeat;
+    }
+    .promotionImg-3{
+        background: url(../images/index8.jpg) center center no-repeat;
+    }
+}
+.indexActivity{
+    .activityImg{
+        height: 520px;
+        background: url(../images/index9.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}

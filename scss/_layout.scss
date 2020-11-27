@@ -1,0 +1,96 @@
+.header{
+    line-height: 24px;
+    h1{
+        font-size: 0;
+    }
+    .navbarIcon{
+        outline:none;
+        span{
+            font-size: 40px;
+            color: $secondary;
+        }
+    }
+    .navbarIcon:hover{
+        span{
+            color: $dark;
+        }
+    }
+    .nav-item{
+        .nav-link{
+            color: $secondary;
+        }
+    }
+    .mobileCart:hover{
+        a{
+            text-decoration:none;
+        }
+    }
+    .mobileCartText{
+        background: $primary;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 12px;
+        line-height: 1;
+        color: white;
+        right: -4px;
+        top: 10px;
+    }
+
+    @media (min-width: 768px) {
+        .nav-item:hover{
+            .nav-link{
+                color: $primary;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+        h1{
+            margin-left: 20px;
+        }
+        .nav-item{
+            background: $dark;
+            border-bottom: 1px solid white;
+            .nav-link{
+                color: white;
+            }
+        }
+        .nav-item:hover{
+            background: $secondary;
+        }
+       
+    }
+}
+.subscribe{
+    height: 600px;
+    background: url(../images/index10.jpg) center 55% no-repeat;
+    background-size: cover;
+    .subscribeContent{
+        margin-bottom: 112px;
+        input,button{
+            height: 60px;
+        }
+    }
+    @media (max-width: 767px) {
+        background: url(../images/index10.jpg) 25% 55% no-repeat;
+        background-size: cover;
+    }
+}
+.footer{
+    background: $primary;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    a{
+        text-decoration:none;
+    }
+    .footerContent{
+        width: 343px;
+        p{
+            font-size: 14px;
+        }
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}
